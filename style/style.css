@@ -168,6 +168,7 @@ ul {
     opacity: .45;
 }
 
+
 .custom-card-desc {
     position: absolute;
     bottom: 10px;
@@ -262,5 +263,81 @@ ul {
     padding: 17px 20px;
     border-radius: 20px;
     background-color: #9EB8D9;
+    margin-bottom: 20px;
+}
+
+/* Feedback Section */
+
+.feedback-card {
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 260px;
+    height: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.feedback-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.feedback-desc {
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+}
+
+.feedback-name {
+    margin: 10px 0;
+    margin-bottom: 5px;
+}
+
+.feedback-stars {
+    margin: 0;
+    margin-bottom: 35px;
+
+}
+
+/* Footer Section */
+
+.footer-height {
+    height: 300px;
+}
+
+.footer-link a {
+    margin-top: 20px;
+}
+
+.footer-text-max-width {
+    max-width: 280px;
+}
+
+.social-logo {
+    font-size: 24px;
+}
+
+.link-footer {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.copy-text {
+    display: inline;
+}
+
+.margin-copy {
+    margin: 0 80px;
+}
+
+.final-margin {
     margin-bottom: 20px;
 }
