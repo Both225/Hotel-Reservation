@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navigation Bar */
+
+li > a {
+    cursor: pointer;
+}
+
+.link-to-home {
+    text-decoration: none;
+    color: black;
+}
+
+.advert-container {
+    border-radius: 20px;
+    height: 380px;
+    position: relative;
+    background-image: url("../Assets/Images/advertise image.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.advert-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+    border-radius: 20px;
+    height: 380px;
+    background-color: black;
+    opacity: .45;
+}
+
+.advert-text {
+    max-width: 230px;
+}
+
+.advert-header {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.advert-title {
+    position: absolute;
+    left: 5;
+    color: white;
+    opacity: 1;
+    max-width: 400px;
+}
+
+.bg-image {
+    background-image: url("../Assets/Images/advertise image.jpg");
+    height: 100vh;
+}
+
+
+.custom-btn {
+    margin: 0;
+    padding: 8px 12px;
+    font-size: 10px;
+    background-color: rgb(218, 188, 15);
+    border: none;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+/* Main Section */
+
+.hotel-detail {
+  
+}
+
+.order-side {
+  height: 60vh;
+}
+
+.big-image {
+  height: 100%;
+}
+
+.multi-image {
+  height: 350px;
+}
+
+.hotel-point-of-view {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.hotel-room {
+  width: 100%;
+  height: 100%;
+  margin-left: 12px;
+}
+
+.image-wrapper {
+  height: 416px;
+}
+
+.hotel-one {
+  border-top-right-radius: 30px;
+}
+
+.hotel-two {
+  border-bottom-right-radius: 30px;
+}
+
+/* Footer Section */
+
+.footer-height {
+    height: 300px;
+}
+
+.footer-link a {
+    margin-top: 20px;
+}
+
+.footer-text-max-width {
+    max-width: 280px;
+}
+
+.footer-margin-top {
+    margin-top: 48px;
+}
+
+.social-logo {
+    font-size: 24px;
+}
+
+.link-footer {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.copy-text {
+    display: inline;
+}
+
+.margin-copy {
+    margin: 0 80px;
+}
+
+.final-margin {
+    margin-bottom: 20px;
+}
+
+/* Tap Wrapper Section */
+
+.tag-wrapper {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.tag {
+    font-size: 12px;
+    margin-right: 12px;
+    padding: 3px 8px;
+    background-color: rgb(195, 107, 107);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stars {
+    font-size: 10px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.list-stars {
+    background-color: white;
+}
+
+/* Hotel desc */
+
+.hotel-name {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.hotel-location {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+/* Hotel feature */
+
+
+.feature-text {
+    margin: 0;
+}
+
+.feature-icon {
+    margin: 0;
+    margin-right: 8px;
+}
+
+.feature {
+    margin-top: 20px;
+}
+
+/* Choosing Sectin */
+
+.choosing {
+    margin-top: 60px;
+}
+
+.choosing-container {
+    height: 150px;
+    margin-bottom: 0px;
+}
+
+.room-image {
+    height: 100%;
+    width: 180px;
+    margin-right: 18px;
+    border-radius: 10px;
+}
+
+.room-info {
+    height: 100%;
+    width: 280px;
+    margin-right: 10px;
+}
+
+.room-info p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.choosing-btn {
+    height: 100%;
+    width: 150px;
+}
+
+.choosing-text {
+    margin-bottom: 20px;
+}
+
+.hotel-room-name {
+    font-size: 20px;
+    margin-right: 7px;
+    font-weight: 500;
+}
+
+.add-sub-con {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+}
+
+.add-sub-con p {
+    margin: 0;
+}
+
+.num {
+    margin: 0;
+}
+
+.num-btn {
+    padding: 6px 10px;
+    background-color: red;
+    margin: 0;
+}
+
+.sub-btn {
+    margin: 0;
+    padding: 0px 12px;
+    background-color: plum;
+    border-radius: 5px;
+}
+
+.add-btn {
+    margin: 0;
+    padding: 0px 10px;
+    background-color: plum;
+    border-radius: 5px;
+}
+
+.map-image {
+    margin-top: 20px;
+    height: 350px;
+    width: 100%;
+}
