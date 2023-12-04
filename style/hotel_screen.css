@@ -124,10 +124,29 @@ ul {
 
 /* Main Section */
 
+/* Left Side */
+
 .col-2 {
-  background-color: red;
   height: 60vh;
+  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 }
+
+.left-side-text p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.left-side-text label {
+    font-size: 12px;
+}
+
+
+
+/* Right Side */
 
 .col-10 {
   height: 140vh;
