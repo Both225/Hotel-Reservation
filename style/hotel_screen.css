@@ -16,46 +16,6 @@ li > a {
     color: black;
 }
 
-.advert-container {
-    border-radius: 20px;
-    height: 380px;
-    position: relative;
-    background-image: url("../Assets/Images/advertise image.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
-.advert-container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;   
-    border-radius: 20px;
-    height: 380px;
-    background-color: black;
-    opacity: .45;
-}
-
-.advert-text {
-    max-width: 230px;
-}
-
-.advert-header {
-    margin-bottom: 0;
-    font-size: 30px;
-    font-weight: 300;
-}
-
-.advert-title {
-    position: absolute;
-    left: 5;
-    color: white;
-    opacity: 1;
-    max-width: 400px;
-}
-
 .bg-image {
     background-image: url("../Assets/Images/advertise image.jpg");
     height: 100vh;
@@ -74,6 +34,7 @@ li > a {
 ul {
     list-style: none;
     display: flex;
+    gap: 20px;
 }
 
 /* Footer */

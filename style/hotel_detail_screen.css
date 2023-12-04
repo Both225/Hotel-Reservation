@@ -16,74 +16,26 @@ li > a {
     color: black;
 }
 
-.advert-container {
-    border-radius: 20px;
-    height: 380px;
-    position: relative;
-    background-image: url("../Assets/Images/advertise image.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
-.advert-container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;   
-    border-radius: 20px;
-    height: 380px;
-    background-color: black;
-    opacity: .45;
-}
-
-.advert-text {
-    max-width: 230px;
-}
-
-.advert-header {
-    margin-bottom: 0;
-    font-size: 30px;
-    font-weight: 300;
-}
-
-.advert-title {
-    position: absolute;
-    left: 5;
-    color: white;
-    opacity: 1;
-    max-width: 400px;
-}
-
-.bg-image {
-    background-image: url("../Assets/Images/advertise image.jpg");
-    height: 100vh;
-}
-
-
-.custom-btn {
-    margin: 0;
-    padding: 8px 12px;
-    font-size: 10px;
-    background-color: rgb(218, 188, 15);
-    border: none;
-    border-radius: 20px;
-}
-
 ul {
     list-style: none;
     display: flex;
+    gap: 20px;
 }
 
 /* Main Section */
 
 .hotel-detail {
-  
+  height: 75vh;
 }
 
 .order-side {
-  height: 60vh;
+  height: 76%;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.screen-container {
+    height: 100vh;
 }
 
 .big-image {
@@ -134,7 +86,6 @@ ul {
 }
 
 .footer-margin-top {
-    margin-top: 48px;
 }
 
 .social-logo {
@@ -306,4 +257,71 @@ ul {
     margin-top: 20px;
     height: 350px;
     width: 100%;
+}
+
+.price-header {
+    height: 50px;
+}
+
+.price-header p {
+    margin: 0;
+}
+
+.price-per-night {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.discount {
+    padding: 5px 10px;
+    background-color: yellow;
+    font-size: 12px;
+    border-radius: 15px;
+    font-weight: 500
+}
+
+.check-date {
+    padding: 3px 8px;
+    background-color: yellow;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 7px;
+    margin: 0;
+}
+
+.people-size {
+    font-size: 12px;
+    margin: 0;
+}
+
+.guest-container {
+    border-radius: 12px;
+}
+
+.extra-checkbox {
+    
+}
+
+.price-text {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.extra {
+    font-size: 14px;
+    margin: 0;
+}
+
+.price-letter {
+    font-size: 12px;
+}
+
+.price-container {
+    border-radius: 8px;
+}
+
+.total-text {
+    font-size: 13px;
+    font-weight: 500
 }
