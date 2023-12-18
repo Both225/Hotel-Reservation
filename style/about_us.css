@@ -7,6 +7,19 @@
 
 /* Navigation Bar */
 
+.custom-btn {
+    margin: 0;
+    padding: 8px 12px;
+    font-size: 10px;
+    background-color: rgb(218, 188, 15);
+    border: none;
+    border-radius: 20px;
+}
+
+.nav-right {
+    gap: 15px;
+}
+
 li > a {
     cursor: pointer;
 }

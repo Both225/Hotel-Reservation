@@ -16,6 +16,19 @@ li > a {
     color: black;
 }
 
+.nav-right {
+    gap: 15px;
+}
+
+.custom-btn {
+    margin: 0;
+    padding: 8px 12px;
+    font-size: 10px;
+    background-color: rgb(218, 188, 15);
+    border: none;
+    border-radius: 20px;
+}
+
 ul {
     list-style: none;
     display: flex;

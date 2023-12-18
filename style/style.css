@@ -9,6 +9,10 @@ li > a {
     cursor: pointer;
 }
 
+li {
+    color: #486284;
+}
+
 .advert-container {
     border-radius: 20px;
     height: 380px;
@@ -59,10 +63,16 @@ li > a {
     margin: 0;
     padding: 8px 12px;
     font-size: 10px;
-    background-color: rgb(218, 188, 15);
+    background-color: #DEB380;
     border: none;
     border-radius: 20px;
+    color: white;
 }
+
+.nav-right {
+    gap: 15px;
+}
+
 
 ul {
     list-style: none;
